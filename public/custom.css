@@ -1,0 +1,7 @@
+.label-style {
+    font-size: 14px;
+    line-height: 1.5;
+    color:green;
+    background-color:red;
+    /* Add any other styles you want to apply to the label here */
+  }
