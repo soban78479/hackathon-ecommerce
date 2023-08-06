@@ -18,7 +18,6 @@ export default function Register() {
         body: JSON.stringify({ email, password ,name})
       })
       // Navigate to the All Users page
-      router.push('/allUsers');
     } catch (error) {
       console.error("Error registering user:", error);
     }
