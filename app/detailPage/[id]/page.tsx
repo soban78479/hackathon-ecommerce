@@ -12,7 +12,7 @@ export default function detailPage({ params }) {
     const fetchPost = async () => {
       try {
         setIsLoading(true);
-        const response = await fetch(`http://localhost:3000/api/onePostApi/${id}`);
+        const response = await fetch(`https://hackathon-ecommerce-lyart.vercel.app/api/onePostApi/${id}`);
         const data = await response.json();
         setPost(data.data);
         setIsLoading(false);
@@ -36,7 +36,7 @@ export default function detailPage({ params }) {
   
       try {
         // Add the post to the cart by calling the addToCart API route
-        const response = await fetch('http://localhost:3000/api/cartPostApi', {
+        const response = await fetch('https://hackathon-ecommerce-lyart.vercel.app/api/cartPostApi', {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

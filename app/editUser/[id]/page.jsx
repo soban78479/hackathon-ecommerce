@@ -12,7 +12,7 @@ export default function EditUser({ params }) {
   const fetchUser = async () => {
     try {
       setIsLoading(true);
-      const response = await fetch(`http://localhost:3000/api/oneUserApi/${id}`);
+      const response = await fetch(`https://hackathon-ecommerce-lyart.vercel.app/api/oneUserApi/${id}`);
       const data = await response.json();
       setUser(data.data);
       setIsLoading(false);

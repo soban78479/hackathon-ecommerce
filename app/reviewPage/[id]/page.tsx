@@ -11,7 +11,7 @@ export default function detailPage({ params }) {
     const fetchReviews = async () => {
       try {
         setIsLoading(true);
-        const response = await fetch(`http://localhost:3000/api/postReviewApi/${id}`);
+        const response = await fetch(`https://hackathon-ecommerce-lyart.vercel.app/api/postReviewApi/${id}`);
         const data = await response.json();
         setReviews(data.data);
         setIsLoading(false);

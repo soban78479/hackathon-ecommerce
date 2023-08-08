@@ -11,7 +11,7 @@ export default function AllPosts() {
   const fetchPosts = async () => {
     try {
       setIsLoading(true);
-      const response = await fetch("http://localhost:3000/api/allPostsApi");
+      const response = await fetch("https://hackathon-ecommerce-lyart.vercel.app/api/allPostsApi");
       const data = await response.json();
       setPosts(data.data);
       setIsLoading(false);

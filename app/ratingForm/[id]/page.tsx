@@ -22,7 +22,7 @@ export default function RatingForm({ params }) {
 
     try {
       // Add the post to the cart by calling the addToCart API route
-      const response = await fetch('http://localhost:3000/api/postRatingApi', {
+      const response = await fetch('https://hackathon-ecommerce-lyart.vercel.app/api/postRatingApi', {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

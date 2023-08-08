@@ -16,7 +16,7 @@ export default function UserPosts() {
     try {
       setIsLoading(true);
       const response = await fetch(
-        `http://localhost:3000/api/allCartPostsApi/${userId}`
+        `https://hackathon-ecommerce-lyart.vercel.app/api/allCartPostsApi/${userId}`
       );
       const data = await response.json();
       setPosts(data.data);

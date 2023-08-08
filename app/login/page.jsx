@@ -8,7 +8,7 @@ export default function Login() {
     const loginUser = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch('http://localhost:3000/api/loginApi', {
+            const response = await fetch('https://hackathon-ecommerce-lyart.vercel.app/api/loginApi', {
               method: "POST",
               headers: {
                 "Content-Type": "application/json",

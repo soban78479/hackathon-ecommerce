@@ -49,7 +49,7 @@ const Form = () => {
       // Prepare the image data to be sent to the server
       const imageData = imageFile ? imageFile.split(",")[1] : null;
 
-      const response = await fetch("http://localhost:3000/api/createPostApi", {
+      const response = await fetch("https://hackathon-ecommerce-lyart.vercel.app/api/createPostApi", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

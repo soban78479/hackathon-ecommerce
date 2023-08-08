@@ -11,18 +11,6 @@ export const authOptions: NextAuthOptions = {
     CredentialsProvider({
       name: 'email',
       credentials: {
-        // "name: 'email'": {
-        //   style: {
-        //     // Your desired style here
-        //     background: "blue",
-        //     color: "white",
-        //     fontSize: "14px",
-        //     fontWeight: "bold",
-        //     borderRadius: "8px",
-        //     padding: "10px 20px",
-        //     cursor: "pointer",
-        //   },
-        // },
         image: {
           // Add custom style for the "image" field
           label: " ",

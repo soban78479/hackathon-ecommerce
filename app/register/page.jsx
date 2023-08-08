@@ -10,18 +10,13 @@ export default function Register() {
   const registerUser = async (e) => {
     e.preventDefault();
     try {
-      fetch('http://localhost:3000/api/registerApi', {
+      fetch('https://hackathon-ecommerce-lyart.vercel.app/api/registerApi', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({ email, password ,name})
       })
-      // Navigate to the All Users page
-<<<<<<< HEAD
-     
-=======
->>>>>>> 164ac099018332e335498f3390c5c56a0caa01fd
     } catch (error) {
       console.error("Error registering user:", error);
     }
