@@ -18,7 +18,10 @@ export default function Register() {
         body: JSON.stringify({ email, password ,name})
       })
       // Navigate to the All Users page
+<<<<<<< HEAD
      
+=======
+>>>>>>> 164ac099018332e335498f3390c5c56a0caa01fd
     } catch (error) {
       console.error("Error registering user:", error);
     }

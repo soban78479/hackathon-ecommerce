@@ -28,10 +28,10 @@ export default async function Aboute() {
                     <p className="font-normal text-base leading-6 text-gray-600 dark:text-white">
                    <b> Alexa ,</b>web developer is responsible for the designing and developing of the online fashion store's
                      website. 
-                     <hr />
+                     {/* <hr /> */}
                    <b>Olivia,</b> is our customers service representative that  handle inquiries, provide assistance with orders, resolve any issues or complaints, 
                    and ensure that customers have a positive shopping experience.
-                   <hr />
+                   {/* <hr /> */}
                    <b>Liam and Elijah</b> are both our social media managers. 
                     </p>
                 </div>
