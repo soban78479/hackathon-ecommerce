@@ -109,7 +109,7 @@ const Form = () => {
       <div className="sm:mx-auto sm:w-full sm:max-w-sm">
         <img
           className="mx-auto h-10 w-auto"
-          src="https://img.icons8.com/external-flat-icons-vectorslab/68/external-Post-social-media-flat-icons-vectorslab.png"
+          src="https://img.icons8.com/external-flat-icons-vectorslab/68/external-Add-Product-shopping-and-commerce-flat-icons-vectorslab.png"
           alt="Your post"
         ></img>
         <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
@@ -215,7 +215,7 @@ const Form = () => {
             value={description}
             onChange={handleDescriptionChange}
             className="block w-full border  border-gray-300 rounded-md p-2"
-            rows="3"
+            rows={3}
             required
           />
         </div>
